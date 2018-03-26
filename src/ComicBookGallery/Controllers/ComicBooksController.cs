@@ -26,7 +26,7 @@ namespace ComicBookGallery.Controllers
 				}
 			};
 			
-			//Updates view to be strongly typed
+			//Update view to be strongly typed
 			return View(comicBook);
 		}
     }
