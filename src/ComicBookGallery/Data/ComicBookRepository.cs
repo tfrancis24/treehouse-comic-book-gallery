@@ -6,8 +6,8 @@ using ComicBookGallery.Models;
 
 namespace ComicBookGallery.Data
 {
-	public class ComicBookRepository
-	{
+     public class ComicBookRepository
+     {
 
           //Bunch of data copied and pasted from the Treehouse guide
           private static ComicBook[] _comicBooks = new ComicBook[]
@@ -77,5 +77,12 @@ namespace ComicBookGallery.Data
 
                return comicBookToReturn;
           }
-	}
+
+          //Return an array of comic books
+          public ComicBook[] GetComicBooks()
+          {
+               return _comicBooks;
+          }
+     }
+
 }
